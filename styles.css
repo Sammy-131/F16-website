@@ -1,0 +1,293 @@
+
+/* --- Body and General Page Styles ---
+   Dark navy background with light grey text gives a clean,
+   military cockpit-inspired look throughout the site. */
+body {
+    background-color: #05080f;
+    color: #cdd6e0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+}
+
+/* --- Page Wrapper ---
+   Centers content and constrains layout to 960px width
+   so nothing scrolls off-screen to the right. */
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* --- Site Header Banner ---
+   Deep navy with a steel-blue bottom border to frame the
+   site title on every page. */
+#header {
+    background-color: #07101e;
+    border-bottom: 3px solid #2a6496;
+    padding: 22px 30px;
+    text-align: center;
+}
+
+/* Main site title in the header */
+#header h1 {
+    font-size: 2.6em;
+    color: #7eb8d4;
+    letter-spacing: 5px;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+}
+
+/* Subtitle / tagline beneath the site title */
+#header p {
+    color: #3d6b85;
+    font-style: italic;
+    margin: 0;
+    font-size: 1em;
+}
+
+/* --- Navigation Bar ---
+   Provides links to every page and appears identically
+   on all pages so users can always find their way. */
+#nav {
+    background-color: #07101e;
+    border-bottom: 2px solid #2a6496;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation link default state */
+#nav a {
+    color: #7eb8d4;
+    text-decoration: none;
+    font-size: 0.93em;
+    margin: 0 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation link hover state - brightens to white for clear feedback */
+#nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* --- Main Content Area ---
+   Slightly lighter than the body background to create
+   a panel effect without being jarring. */
+#content {
+    background-color: #060c18;
+    padding: 30px 40px;
+    border-left: 1px solid #0d2035;
+    border-right: 1px solid #0d2035;
+    min-height: 500px;
+}
+
+/* --- Headings ---
+   Steel-blue tone keeps headings thematic and readable
+   against the dark background. */
+h1, h2, h3, h4, h5, h6 {
+    color: #7eb8d4;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+/* h2 gets a subtle bottom border to separate major sections */
+h2 {
+    border-bottom: 1px solid #0e2a40;
+    padding-bottom: 6px;
+    margin-top: 30px;
+}
+
+/* --- Paragraphs --- */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* --- Horizontal Rules ---
+   Thin steel-blue line used as a section divider. */
+hr {
+    border: none;
+    border-top: 1px solid #0e2a40;
+    margin: 25px 0;
+}
+
+/* --- Hyperlinks within content --- */
+a {
+    color: #4da6c8;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* --- Images ---
+   Steel-blue border frames each image like a targeting display. */
+img {
+    border: 2px solid #0e2a40;
+    display: block;
+    margin: 15px auto;
+}
+
+/* --- Tables ---
+   Dark navy background with steel-blue header cells. */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95em;
+    background-color: #07101e;
+}
+
+/* Table header cells */
+th {
+    background-color: #0a1f33;
+    color: #7eb8d4;
+    padding: 10px 14px;
+    text-align: left;
+    border: 1px solid #0e2a40;
+    letter-spacing: 1px;
+}
+
+/* Table data cells */
+td {
+    padding: 9px 14px;
+    border: 1px solid #0d1e30;
+    vertical-align: top;
+}
+
+/* Alternate row shading improves readability */
+tr:nth-child(even) {
+    background-color: #060e1c;
+}
+
+/* --- Lists --- */
+ul, ol, dl {
+    margin: 15px 0 15px 30px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Definition list term: steel-blue so it stands out as a label */
+dt {
+    font-weight: bold;
+    color: #7eb8d4;
+    margin-top: 12px;
+}
+
+/* Definition list description: indented beneath the term */
+dd {
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+
+/* --- Callout / Highlight Box ---
+   Used for key facts; steel-blue left border draws the eye. */
+.callout {
+    background-color: #07131f;
+    border-left: 4px solid #2a6496;
+    padding: 14px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #a8c8d8;
+}
+
+/* --- Footer ---
+   Mirrors the header for visual symmetry. */
+#footer {
+    background-color: #07101e;
+    border-top: 2px solid #2a6496;
+    padding: 15px 30px;
+    text-align: center;
+    color: #254a60;
+    font-size: 0.85em;
+}
+
+#footer a {
+    color: #305a70;
+}
+
+/* --- Back Link ---
+   A small styled button that returns the user to the home page. */
+.backlink {
+    display: inline-block;
+    margin: 18px 0;
+    padding: 7px 18px;
+    background-color: #0a1f33;
+    border: 1px solid #2a6496;
+    color: #7eb8d4;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backlink:hover {
+    background-color: #0e2a40;
+    color: #ffffff;
+}
+
+/* --- Form Styles (Feedback Page) ---
+   Dark navy inputs with steel-blue borders. */
+form {
+    background-color: #07101e;
+    padding: 25px 30px;
+    border: 1px solid #0e2a40;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    color: #7eb8d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+    width: 96%;
+    padding: 8px 10px;
+    background-color: #060c18;
+    border: 1px solid #2a6496;
+    color: #cdd6e0;
+    font-size: 0.95em;
+    font-family: Georgia, serif;
+}
+
+form input[type="submit"] {
+    margin-top: 18px;
+    padding: 10px 28px;
+    background-color: #0a1f33;
+    border: 1px solid #2a6496;
+    color: #7eb8d4;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0e2a40;
+    color: #ffffff;
+}
+
+/* --- Image Caption ---
+   Small centred italicised text beneath images. */
+.mapcaption {
+    text-align: center;
+    color: #305a70;
+    font-size: 0.88em;
+    font-style: italic;
+    margin-top: -8px;
+    margin-bottom: 16px;
+}
